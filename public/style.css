@@ -1,0 +1,109 @@
+*{
+
+	margin:0;
+}
+
+
+html,body
+{
+	height: 100%;
+}
+
+
+h1,h2,h3,h4,h5,h6,p
+{
+	margin-bottom: 20px;
+
+font-family: Comic Sans MS;}
+nav 
+{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+background-color: rgba(0,0,0,.5);
+z-index: 99;
+text-align: center;
+
+}
+
+nav img 
+{
+float: left;
+padding-left: 30px;
+ border-radius: 40%;
+
+ opacity: 0.6;
+    filter: alpha(opacity=80); 
+}
+
+nav a
+{
+text-decoration: none;
+color: #fff7c4;
+margin-left: 90px;
+line-height: 50px;
+font-family: Comic Sans MS;
+font-size:18px;
+background-color: grey;
+}
+.slide
+{padding-left: 20px;
+width:100px;
+float: left;
+}
+.slideright
+{padding-right: 30px;
+width:200px;
+float: right;
+}
+.sect
+{
+height: 100%;
+width: 100%;
+background-size: cover;;
+
+}
+.subsection
+{
+height: 10%;
+	width: 100%;
+background-color:black;
+color:  #ffd;
+
+}
+.sectTone
+{
+
+background-image: url("images/g4.jpg");
+}
+.sectTwo
+{
+background-image: url("images/g3.jpg");	
+}
+.sectThree
+{
+	background-image: url("images/g2.jpg");
+}
+#pop
+{
+padding-top: 250px;
+
+width: 30%;
+height: 100px;
+}
+.dpop
+{
+
+font-size: 35px;
+color: red;
+}
+.interior
+{
+	padding-left: 400px;
+	width: 70%;
+	height: 320px;
+	font-size:30px;
+color: #fff7c4;
+font-family: Comic Sans MS;
+background-color: rgba(0,0,0,.3);;
+}
